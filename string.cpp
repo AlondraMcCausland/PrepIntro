@@ -6,7 +6,8 @@ int main()
 {
 
   string phrase = "Giraffe Academy";
-  cout << phrase[0];
+  phrase[0] = 'B';
+  cout << phrase;
   
 
   return 0;
