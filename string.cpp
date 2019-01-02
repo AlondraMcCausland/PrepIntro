@@ -6,9 +6,11 @@ int main()
 {
 
   string phrase = "Giraffe Academy";
-  phrase[0] = 'B';
-  cout << phrase;
-  
+  string phrasesub;
+  phrasesub = phrase.substr(8, 3);
+
+  cout << phrasesub;
+
 
   return 0;
 }
